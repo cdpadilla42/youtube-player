@@ -9,12 +9,78 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <nav></nav>
+    <nav>
+      <ul>
+        <li id="guide-icon">
+          <img
+            src="https://www.google.com/url?sa=i&url=http%3A%2F%2Ficon-library.com%2Ficon%2Fburger-menu-icon-5.html&psig=AOvVaw1OwpxiYmW5ivpSdrpes32f&ust=1581451275422000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjfzZ7jx-cCFQAAAAAdAAAAABAI"
+          />
+        </li>
+        <li id="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1004px-Logo_of_YouTube_%282015-2017%29.svg.png"
+          />
+        </li>
+        <li id="search-div">
+          <input type="text" id="search" /> <button></button>
+        </li>
+        <li id="create-vid">
+          <img
+            src="https://seeklogo.net/wp-content/uploads/2018/04/google-home-logo.png"
+          />
+        </li>
+        <li id="apps">
+          <img
+            src="https://seeklogo.net/wp-content/uploads/2018/04/google-home-logo.png"
+          />
+        </li>
+        <li id="bell">
+          <img
+            src="https://seeklogo.net/wp-content/uploads/2018/04/google-home-logo.png"
+          />
+        </li>
+        <li id="prof-pic">
+          <img
+            src="https://seeklogo.net/wp-content/uploads/2018/04/google-home-logo.png"
+          />
+        </li>
+      </ul>
+    </nav>
     <div class="content">
-      <section class="video"></section>
+      <section class="video">
+        <iframe
+          id="main-vid"
+          src="https://www.youtube.com/embed/kXF3VYYa5TI"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
       <section class="vid-details"></section>
       <section class="comments"></section>
-      <aside class="recomended"></aside>
+      <aside class="recomended">
+        <span id="up-next">Up next</span><br />
+        <div class="vid-preview">
+          <div id="vid-preview-img">
+            <img src="https://f4.bcbits.com/img/a2844007563_2.jpg" />
+          </div>
+          <div id="vid-preview-text">
+            <p class="prev-title">apples (lil album)</p>
+            <p class="prev-det">Louie Zong</p>
+            <p class="prev-det">77k views</p>
+          </div>
+        </div>
+        <div class="vid-preview">
+          <div id="vid-preview-img">
+            <img src="https://f4.bcbits.com/img/a2844007563_2.jpg" />
+          </div>
+          <div id="vid-preview-text">
+            <p class="prev-title">apples (lil album)</p>
+            <p class="prev-det">Louie Zong</p>
+            <p class="prev-det">77k views</p>
+          </div>
+        </div>
+      </aside>
     </div>
     <!-- <script src="main.js"></script> -->
   </body>
